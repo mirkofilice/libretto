@@ -49,7 +49,7 @@ public class LibrettoController {
     	String codice=txtCodice.getText();
     	
     	if (codice.length()<5){
-    		txtMessage.appendText("Dati esami insufficienti\n");
+    		txtMessage.appendText("Codice corso non valido\n");
     		return;	
     	}
     	
